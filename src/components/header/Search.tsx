@@ -4,7 +4,7 @@ function Search() {
     return (
         <form className="relative flex items-center w-full">
             <div className="relative w-full flex items-center">
-                <input className="w-full h-10 pl-4 pr-12 text-black bg-yellow-50/80 rounded-lg shadow-xs border border-teal-700 focus:outline-none focus:border-teal-700 focus:ring-2 focus:ring-teal-700/20 placeholder:text-gray-400 transition-all duration-200"
+                <input className="w-full h-10 pl-4 pr-12 text-black bg-yellow-50/20 rounded-lg shadow-xs border border-teal-700 focus:outline-none focus:border-teal-700 focus:ring-2 focus:ring-teal-700/20 placeholder:text-gray-400 transition-all duration-200"
                     type="search"
                     placeholder="Buscar produtos"
                     id="busca"

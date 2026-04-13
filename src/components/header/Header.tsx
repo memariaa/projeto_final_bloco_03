@@ -17,8 +17,7 @@ function Header(){
                     </div>
 
                     <div className='items-center hidden gap-4 py-4 md:flex'>
-                        Categorias
-                        Cadastrar Categoria
+                        <Link to='/categorias' className='hover:underline'>Categorias</Link> 
                         <UserIcon size={32} weight='bold' className="text-teal-700"/>
                         <ShoppingCartIcon size={32} weight='bold' className="text-teal-700"/>
                     </div>
