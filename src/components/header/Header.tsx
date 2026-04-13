@@ -1,15 +1,16 @@
 import { ShoppingCartIcon } from "@phosphor-icons/react/dist/icons/ShoppingCart";
 import { UserIcon } from "@phosphor-icons/react/dist/icons/User";
 import Search from "./Search";
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
         <>
             <div className='sticky top-0 left-0 z-50 flex justify-center w-full py-4 text-black bg-yellow-50/50 md:py-2 border-b border-red-400 shadow-xs backdrop-blur-md'>
                 <div className="container flex items-center justify-between mx-6 mt-2 text-lg">
-                    <div>
+                    <Link to="/">
                         <img src="/src/assets/icons/logo.svg" alt="Logo" className='w-50 md:w-60' />
-                    </div>
+                    </Link>
 
                     <div className="relative flex items-center justify-center w-2/5 text-black max-md:hidden">
                         <Search/>
